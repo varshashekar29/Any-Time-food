@@ -1,0 +1,259 @@
+body,html
+{
+  padding: 0px;
+  margin: 0px;
+}
+/* Nav bar starts */
+.banner
+{
+    margin-top: -107px;
+    height: 739px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://backiee.com/static/wpdb/wallpapers/1920x1080/228183.jpg);
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    background-color:#efefef;
+    padding: 20px 73.5px;
+    position: fixed;
+    top: 0px;
+}
+.navbar-brand
+{
+    text-decoration: none;
+    font-size: 40px;
+    color:terracotta;
+}
+.nav-item,.navbar-nav
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: inline;
+
+    margin: 10px;
+   
+}
+.nav-link
+{
+    text-decoration: none;  
+    color:terracotta;
+    transition: color .3s;
+}
+.navbar-nav
+{
+    margin-left:80px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.nav-link:hover
+{
+    color: red;
+}
+#nav span
+{
+    color: red;
+}
+.banner-card
+{
+    width:45%;
+    background-color: rgba(0,0,0,0.5);
+    color: #efefef;
+    border-top: 5px solid green;
+    margin: 200px auto;
+    color: white;
+    position:relative;
+    top:230px;
+}
+.banner-btn
+{
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    border: 3px solid green;
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin-left:280px;
+    transition:background-color .8s;
+}
+ p
+ {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  @keyframes slidein
+   {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.banner-btn:hover
+{
+    background-color: green;
+}
+/* Nav bar ends */
+/* advantages starts  */
+.adva
+{
+    margin: 50px 50px;
+    background-color: rgba(174, 167, 167, 0.332);
+    width: 1350px;
+    height: 400px;
+    padding: 50px;
+}
+.energy
+{
+    width: 380px;
+    height: 300px;
+    background-color:white;
+    padding:45px 20px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    transition: background-color .3s, box-shadow .3s;
+}
+.energy:hover
+{
+    background-color: rgb(224, 214, 214);
+    box-shadow: 4px 4px 20px 6px;
+    
+}
+.fa-bolt,.fa-carrot,.fa-seedling
+{
+    background-color: rgba(208, 198, 198, 0.335);
+    font-size: 30px;
+    padding: 20px 20px;
+}
+.fa-bolt
+{
+    color: rgb(255, 234, 0);
+}
+.fa-carrot
+{
+    color: rgb(255, 119, 0);
+}
+.fa-seedling
+{
+    color: green;
+}
+.fa-bolt:hover
+{
+    background-color: rgb(255, 234, 0);
+    color: white;
+    
+}
+.fa-carrot:hover
+{
+    background-color: rgb(255, 119, 0);
+    color: white;
+}
+.fa-seedling:hover
+{
+   background-color: green;
+   color: white;
+}
+/* gallery starts */
+.gallery img
+{
+    margin-left: 80px;
+    margin-bottom: 30px;
+    box-shadow: 4px 10px 25px black;
+    opacity: 0.9;
+    transition: opacity .6s,transform 1s;
+}
+.gallery img:hover
+{
+    opacity:1;
+    transform: scale(1.2);
+    
+}
+/* gallery ends */
+/* client starts */
+.clients h1
+{
+    text-align: center;
+    
+}
+.clients
+{
+    margin-top: 70px;
+    background-color: rgba(215, 205, 205, 0.25);
+}
+.client-card
+{
+    margin-left: 40px;
+    width: 250px;
+    height: 270px;
+    border: 1px solid gray;
+    display: inline-block;
+    
+}  
+.client-card img
+{
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px;
+    transition: .8s;
+}
+.client-card:hover img
+{
+    transform: scale(1.2);
+}
+/* client ends  */
+/* footer starts  */
+.footer
+{
+    margin: 40px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-map-marker
+{
+    color: orange;
+}
+.fa-phone
+{
+    color: orange;
+}
+.fa-envelope
+{
+    color: orange;
+}
+
+.footer div
+{
+   /* border: 1px solid red; */
+   width: 250px;
+   padding:50px 35px;
+   display: inline-block;
+   margin: 20px;
+}
+.footer li
+{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.join input
+{
+    width: 100%;
+    padding: 10px 0px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+/* footer ends  */
